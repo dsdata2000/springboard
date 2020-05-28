@@ -4,7 +4,7 @@
 3. [Feature 2](README.md#comments-on-feature-2)
 4. [Feature 3](README.md#comments-on-feature-3)
 5. [Feature 4](README.md#comments-on-feature-4)
-6.[Feature 6](README.md#comments-on-final-col)
+6. [Feature 6](README.md#comments-on-feature-5)
 
 ## Project Overview
 
