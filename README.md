@@ -3,7 +3,7 @@
 2. [Project I](README.md#comments-on-feature-1)
 3. [Project II](README.md#comments-on-feature-2)
 4. [Project I Review and Results](README.md#comments-on-feature-3)
-5. [Project I Review and Results](README.md#comments-on-feature-4)
+5. [Project II Review and Results](README.md#comments-on-feature-4)
 6. [Feature 6](README.md#comments-on-feature-5)
 
 ## Project Overview
