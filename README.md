@@ -9,8 +9,8 @@
 ## Project Overview
 
 The following sets of data stored on UCI Machine Learning Repository System  
-  o Default of credit card clients (https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients) and  
-  o Online Shoppers Purchasing Intention (https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset)
+  o Default of credit card clients and  
+  o Online Shoppers Purchasing Intention 
 
 ## Project I
 
