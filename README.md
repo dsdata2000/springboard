@@ -24,6 +24,9 @@ This project analyzed online shoppers’ behavioral analysis such as shoppers on
 
 We found the ratio of the number of clients who paid bill on time varies from month to month (mostly increases). However this trend varies in terms of clients attributes such as education, marriage, etc. As for example, university and grad students show better trend comparing to HS students. Inferential statistical analysis shows that the 95% confidence interval of clients balance with respect to the mean is very close to two times the STD. We applied several Machine Learning algorithms to make predictions whether a customer will be a default or not default, and compared their performance using classification report and ROC score.
 
+Clients pay records with time (whether bill paid on time or not) shows clients with high credit limit shows better pay-trend comparing other clients. This trend is 
+consistent and meaningful from practical point of view (Ref: time-trend(bill paid on time), creditable-clients (->credit limit-$) .png).
+
 ## Project II Review and Results 
 
 We found the largest group in terms of visitor type who did shopping is returning visitor and theymainly shop more in preferred months such as Nov, May, Mar, Dec. However, the new visitors shop pretty much all the year round.  We also found the weekdays and weekend shopping from month to month month show similar trends. Shoppers who ended up in buying spent more time in viewing the product online. 95% confidence interval of product related duration with respect to the mean is close to 2 times the STD. We found the Ensemble Gradient Boosting Classifier as the best classifier with ROC score 0.78 and precision 0.93.
