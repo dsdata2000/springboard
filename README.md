@@ -14,7 +14,7 @@ The following sets of data stored on UCI Machine Learning Repository System
 
 ## Project I
 
-Default of credit card clients data set consists of 24 attributes such as clients six-month pay records e.g.; whether month-to-month bill was paid on time or not, whether the pay amount was full or partial comparing to the bill amount and clients other attributes such as age, sex, marriage, education and credit card (CC) balance.  
+Default of credit card clients data set consists of attributes such as clients six-month pay record e.g.; whether month-to-month bill was paid on time or not, whether the pay amount was full or partial comparing to the bill amount and other attributes such as clients' credit limit.  
 
 ## Project II
 
@@ -22,10 +22,11 @@ This project analyzed online shoppers’ behavioral analysis such as shoppers on
 
 ## Project I Review and Results 
 
-We found the ratio of the number of clients who paid bill on time varies from month to month (mostly increases). However this trend varies in terms of clients attributes such as education, marriage, etc. As for example, university and grad students show better trend comparing to HS students. Inferential statistical analysis shows that the 95% confidence interval of clients balance with respect to the mean is very close to two times the STD. We applied several Machine Learning algorithms to make predictions whether a customer will be a default or not default, and compared their performance using classification report and ROC score.
+We found the ratio of the number of clients who paid bill on time varies from month to month (mostly increases). However this trend varies in terms of clients attributes. Inferential statistical analysis shows that the 95% confidence interval of clients balance with respect to the mean is very close to two times the STD. We applied several Machine Learning algorithms to make predictions whether a customer will be a default or not, and compared their performance using classification report and ROC score.
 
-Clients pay records with time (whether bill paid on time or not) shows clients with high credit limit shows better pay-trend comparing other clients. This trend is 
-consistent and meaningful from practical point of view (Ref: time-trend(bill paid on time), creditable-clients (->credit limit-$) .png).
+We also found other interesting trends. As for example, client group with the highest credit limit does not show the best trend in terms of paying full bill. However, in terms of 
+paying bill on-time, client-group with higher credit limit shows better trend. 
+
 
 ## Project II Review and Results 
 
