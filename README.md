@@ -14,7 +14,8 @@ The following sets of data stored on UCI Machine Learning Repository System
 
 ## Project I
 
-Default of credit card clients data set consists of attributes such as clients six-month pay record e.g.; whether month-to-month bill was paid on time or not, whether the pay amount was full or partial comparing to the bill amount and other attributes such as clients' credit limit.  
+Interesting trends were identified such as, client group with the highest credit limit does show the best trend (*.png) however there is time fluctuations, may be due to risk-factors involved in investments.
+
 
 ## Project II
 
