@@ -70,6 +70,11 @@ Write the query without using the OR operator. */
 
 select * from country_club.Facilities
     where facid in (1,5)
+    
+    
+(select * from Facilities where facid=1)
+union
+(select * from Facilities where facid=5);
 
 
 
