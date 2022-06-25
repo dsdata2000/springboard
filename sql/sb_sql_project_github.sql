@@ -113,8 +113,9 @@ country_club.Members */
         => joindate
 
 
-select firstname, surname max(joindate)
-        from country_club.Members
+(select * from Members order by joindate desc limit 1)
+union
+(select * from Members order by joindate asc limit 1);
 
 
 /* Q7: How can you produce a list of all members who have used a tennis court?
