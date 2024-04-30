@@ -33,7 +33,9 @@ df.rename(columns={ 'ID':'id', 'LIMIT_BAL':'bal',
 
 print(df.columns)
 
-'''  WE WILL CHECK how various bal classification   '''
+
+
+#WE WILL CHECK how various bal classification   
 
 print(df['bal'].max(), df['bal'].min(), 'bal varies from 10 K to 1 M' )
 
@@ -120,7 +122,6 @@ for i in range(1,4):
     P[leg[i]] = x[i,:]
 
 print(P)
-
 
 
 
