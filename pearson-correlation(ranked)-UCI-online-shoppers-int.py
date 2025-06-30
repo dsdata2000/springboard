@@ -20,8 +20,9 @@ print(df.info())
 '''
 
 
-df = df[ df['Administrative_Duration']>-1.0]
-df = df[ df['Informational_Duration']>-1.0 ]
+df = df[ df['Administrative_Duration']>=0]
+df = df[ df['Informational_Duration']>=0 ] 
+df = df[ df['ProductRelated_Duration']>=0] 
 
 
 mon_idx = df['Month'].value_counts().index.tolist()
@@ -45,7 +46,7 @@ df['Revenue'].replace(to_replace=r_idx,
 
 df_corr = df.corr(method='pearson')
 plt.figure(num=1,figsize=(6,6))
-sns.heatmap(df_corr, annot=True, annot_kws={"size":6}, fmt='0.3f')
+sns.heatmap(df_corr, annot=True, annot_kws={"size":8}, fmt='0.3f')
 plt.title(" Attributes correlation: Online Shoppers Revenue dataset")
 plt.show()
 
@@ -68,11 +69,15 @@ df_corr1 = pd.DataFrame({'attr':c_attr, 'correlation':corr_sort})
 df_corr1 = df_corr1.set_index(df_corr1['attr'])
 
 print(df_corr1)
-plt.figure(num=2, figsize=(4,4))
+plt.figure(num=2, figsize=(6,6))
 df_corr1['correlation'].plot(kind='barh')
 plt.xlabel("Pearson Correlation Coefficient")
 plt.title('Correlation(ranked): Online Shoppers Intention dataset-UCI')
 plt.show()
+
+
+
+
 
 
 
